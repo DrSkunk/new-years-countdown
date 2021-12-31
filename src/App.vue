@@ -14,7 +14,9 @@
     <h1 class="text-9xl drop-shadow z-10" v-if="isNewYear">
       Gelukkig Nieuwjaar!
     </h1>
-    <h1 class="text-9xl drop-shadow z-10" v-else>{{ remaining }}</h1>
+    <h1 class="text-9xl drop-shadow z-10 tabular-nums" v-else>
+      {{ remaining }}
+    </h1>
     <img
       src="/img/nerdland.png"
       class="absolute left-5 top-5 w-12 opacity-50"
